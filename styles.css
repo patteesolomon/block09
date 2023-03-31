@@ -1,0 +1,30 @@
+#name{
+    display: flex;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+}
+
+#row{
+    display: flex;
+    margin: 3em;
+    column-gap: 10px;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    margin: 3em;
+}
+
+#form{
+    width: inherit;
+    border: 1px, solid black;
+    padding: 1em;
+}
+
+@media screen and (max-width: 768px) { 
+    background-color: blue;
+}
